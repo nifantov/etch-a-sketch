@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-scratch</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>Etch-a-scratch</header>
+    <main>
+
+
+        <div class="tools">
+            <input class="range" id="input" type="range" value="10" min="1" max="60" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)">
+            <label id="label">10 x 10</label>
+            <button class="button-28" role="button" id="clear">Clear</button>
+            <button class="button-28" role="button" id="eraser">Eraser</button>
+            <button class="button-28" role="button" id="random" >Random color</button>
+            <button class="button-28" role="button" active id="color">Color</button>
+            <input id="colorChange" type="color" value="#202020">
+        </div>
+        <div class="grid-container" id="grid-container">
+            
+  
+
+        </div>
+        
+
+
+    </main>
+    <footer></footer>
+</body>
+</html>
